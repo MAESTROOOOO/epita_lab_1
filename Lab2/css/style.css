@@ -1,0 +1,50 @@
+body {
+    background-color: crimson;
+    font: large;
+
+
+    
+}
+
+h1{
+
+    color: dodgerblue;
+    font-family: 'Lacquer', sans-serif;
+
+}
+
+p#first{
+    background-color: yellow;
+}
+
+li{
+    list-style: none;
+    text-align: center;
+    width: 32%;
+    display: inline-block;
+
+}
+
+li#header1{
+
+    background-color: tomato;
+    border-color: black;
+    font-family: 'Tomorrow', sans-serif;
+
+}
+
+li#header2{
+
+    background-color: chartreuse;
+    border-color: black;
+    font-family: 'Akronim', cursive;
+
+}
+
+li#header3{
+
+    background-color: violet;
+    border-color: black;
+    font-family: 'Indie Flower', cursive;
+
+}
