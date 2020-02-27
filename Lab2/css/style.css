@@ -1,47 +1,36 @@
 body {
-    background-color: cornflowerblue;
+    background-color: aliceblue;
     font: large; 
 }
 
 h1{
-
-    color: chartreuse;
+    color: black;
     font-family: 'Lacquer', sans-serif;
-
 }
 
-p#first{
-    background-color: yellow;
+.topnav {
+  background-color:grey;
+  overflow: hidden;
 }
 
-li{
-    list-style: none;
-    text-align: center;
-    width: 32%;
-    display: inline-block;
-
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
 
-li#header1{
-
-    background-color: tomato;
-    border-color: black;
-    font-family: 'Tomorrow', sans-serif;
-
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
 }
 
-li#header2{
-
-    background-color: chartreuse;
-    border-color: black;
-    font-family: 'Akronim', cursive;
-
-}
-
-li#header3{
-
-    background-color: violet;
-    border-color: black;
-    font-family: 'Indie Flower', cursive;
-
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: lightblue;
+  color: white;
 }
