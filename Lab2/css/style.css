@@ -1,12 +1,15 @@
 body {
+    margin: 0;
+    padding: 0;
     background-color: aliceblue;
-    font: large; 
+
 }
 
-h1{
-    color: black;
-    font-family: 'Lacquer', sans-serif;
+.header{    
+    font-family: 'McLaren', cursive;
 }
+
+/*Navigation bar*/
 
 .topnav {
   background-color:grey;
@@ -34,6 +37,7 @@ h1{
   background-color: lightblue;
   color: white;
 }
+
 
  /* slideshow  */
 @keyframes slideshow {
